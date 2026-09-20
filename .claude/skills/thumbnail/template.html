@@ -1,0 +1,47 @@
+<!-- template de thumbnail do canal Guilherme Frasão. 1280x720 (padrão YouTube).
+     A skill copia este arquivo, substitui {{TITULO_HTML}} e {{HANDLE}}, e renderiza em PNG via Playwright.
+     Cores e fonte vêm de _contexto/marca/design-guide.md — se o guia mudar, atualizar aqui também. -->
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{width:1280px;height:720px;overflow:hidden}
+  body{
+    background:#000000;
+    color:#FFFFFF;
+    font-family:'Space Grotesk', system-ui, sans-serif;
+    position:relative;
+    display:flex;
+    align-items:center;
+  }
+  .handle{
+    position:absolute;
+    top:44px; left:56px;
+    font-size:22px;
+    font-weight:500;
+    color:#9A9A9A;
+    letter-spacing:.01em;
+  }
+  .titulo{
+    padding:0 90px 0 56px;
+    /* zona segura: nada crítico no canto inferior direito (~180x60px),
+       o YouTube cobre com a duração do vídeo */
+    max-width:1100px;
+    font-weight:700;
+    font-size:88px;
+    line-height:1.08;
+    letter-spacing:-.01em;
+  }
+  .titulo .d{ color:#E8622C }
+</style>
+</head>
+<body>
+  <div class="handle">{{HANDLE}}</div>
+  <div class="titulo">{{TITULO_HTML}}</div>
+</body>
+</html>

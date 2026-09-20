@@ -3,13 +3,12 @@
 
 ## Onde paramos
 
-Acabei de configurar o sistema com o `/setup` (2026-09-20). Recebi também o guia editorial completo
-do canal (posicionamento, pilares, formatos, banco de pautas), salvo em
-`_contexto/marca/guia-editorial-canal.md`. Próximo passo: `/mapear`.
+Sistema configurado (`/setup`) e mapeado (`/mapear`) em 2026-09-20. Skills prontas: `/roteiro`,
+`/thumbnail`, `/descricao` — cobrem o fluxo do vídeo, do tema até a descrição. Próximo passo:
+usar `/roteiro` pra escrever o primeiro vídeo (ou os 2 da semana de lançamento).
 
 ## Pendências
 
-- Rodar `/mapear` pra criar as skills do dia a dia (roteiro, pauta, thumbnail, descrição) — 2026-09-20
 - Achar o pacote certo do MCP de Google Drive (catálogo não tinha comando de instalação) — 2026-09-20
 - yt-dlp instalado mas fora do PATH (`/Users/guilherme.frasao/Library/Python/3.9/bin/yt-dlp`); considerar adicionar ao PATH — 2026-09-20
 - Sem logo ainda — quando tiver, joga em `_contexto/marca/` — 2026-09-20
