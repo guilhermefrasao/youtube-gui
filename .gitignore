@@ -1,0 +1,13 @@
+# específico de cada computador — não viaja com o git
+.origem
+.agents/
+
+# segredos
+.env
+.env.*
+*.pem
+*credentials*.json
+
+# sistema
+.DS_Store
+node_modules/
